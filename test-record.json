@@ -1,0 +1,60 @@
+{
+"title": "test",
+"startDate": "2023-11-15",
+"endDate": "2023-11-15",
+"dmpSearchable": "yes",
+"funding": {
+    "grant_source": "Grant Number",
+    "grant_id": "1234"
+},
+"projectDescription": "Project description example",
+"organizations": [
+    {
+        "ORG_ID": 644,
+        "name": "Biosystems and Biomaterials Division"
+    },
+    {
+        "ORG_ID": 647,
+        "name": "Applied Chemicals and Materials Division"
+    }
+],
+"primary_NIST_contact": {
+    "firstName": "Niksa",
+    "lastName": "Blonder",
+    "orcid": "1265-1263-4521-7854"
+},
+"contributors": [
+    {
+        "contributor": {
+            "firstName": "Sam",
+            "lastName": "Smith",
+            "orcid": "5874-8965-7412-8523"
+        },
+        "e_mail": "sam@noa.gov",
+        "instituion": "NOA",
+        "role": "Hosting Institution"
+    },
+    {
+        "contributor": {
+            "firstName": "Ray",
+            "lastName": "Plante",
+            "orcid": "3214-5214-8965-7854"
+        },
+        "e_mail": "ray@nist.gov",
+        "instituion": "NIST",
+        "role": "Project Manager"
+    }
+],
+"keyWords": [
+    "keyword 2",
+    "keyword 1"
+],
+"dataSize": "35",
+"sizeUnit": "GB",
+"softwareDevelopment": {
+    "development": "yes",
+    "softwareUse": "internal",
+    "softwareDatabase": "yes",
+    "softwareWebsite": "yes"
+}
+}
