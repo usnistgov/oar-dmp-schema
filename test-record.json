@@ -75,5 +75,9 @@
     "Published Results and SRD"
 ],
 "preservationDescription": "preservation description example",
-"dataAccess": "discoverable data plan example"
+"dataAccess": "discoverable data plan example",
+"pathsURLs": [
+    "path 1",
+    "url 1"
+]
 }

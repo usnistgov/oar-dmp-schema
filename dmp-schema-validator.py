@@ -79,6 +79,8 @@ dmp_schema = {
     },
     "preservationDescription": {"type" : "string"},
     "dataAccess": {"type" : "string"},
+    "pathsURLs":{"type": "array",
+                          "items":{"type" : "string"}}
   },
   "required":["title"],
   #========================================================
