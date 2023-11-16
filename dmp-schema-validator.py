@@ -73,6 +73,11 @@ dmp_schema = {
       }
     },
     "dataDescription": {"type" : "string"},
+    "dataCategories": {"type": "array",
+                        "items":{"type" : "string",
+                                 "pattern":"^Derived$|^Working$|^Publishable$|^Published Results and SRD$"},
+                        
+    },
   },
   "required":["title"],
   #========================================================

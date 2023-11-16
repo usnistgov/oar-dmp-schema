@@ -67,5 +67,11 @@
     "ethical_issues_report": "report example",
     "dmp_PII": "no"
 },
-"dataDescription": "generated data example"
+"dataDescription": "generated data example",
+"dataCategories": [
+    "Derived",
+    "Working",
+    "Publishable",
+    "Published Results and SRD"
+]
 }
