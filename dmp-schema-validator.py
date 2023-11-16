@@ -61,6 +61,17 @@ dmp_schema = {
     },
     "technicalResources":{"type": "array",
                           "items":{"type" : "string"}},
+    "ethical_issues": {
+      "type":"object",
+      "properties" : {
+        "ethical_issues_exist": {"type" : "string",
+                                "enum":["yes", "no"]},
+        "ethical_issues_description": {"type" : "string"},
+        "ethical_issues_report": {"type" : "string"},
+        "dmp_PII": {"type" : "string",
+                    "enum":["yes", "no"]}
+      }
+    },
   },
   "required":["title"],
   #========================================================
