@@ -56,5 +56,9 @@
     "softwareUse": "internal",
     "softwareDatabase": "yes",
     "softwareWebsite": "yes"
-}
+},
+"technicalResources": [
+    "resource 2",
+    "resource 1"
+]
 }

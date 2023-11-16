@@ -58,7 +58,9 @@ dmp_schema = {
         "softwareWebsite": {"type" : "string",
                         "enum":["yes", "no"]},
       }
-    }
+    },
+    "technicalResources":{"type": "array",
+                          "items":{"type" : "string"}},
   },
   "required":["title"],
   #========================================================
