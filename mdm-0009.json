@@ -1,0 +1,113 @@
+{
+    "id": "mdm1:0009",
+    "name": "test1",
+    "acls": {
+        "read": [
+            "xyz"
+        ],
+        "write": [
+            "xyz"
+        ],
+        "admin": [
+            "xyz"
+        ],
+        "delete": [
+            "xyz"
+        ]
+    },
+    "owner": "xyz",
+    "deactivated": null,
+    "status": {
+        "created": 1699479419.3727343,
+        "state": "edit",
+        "action": "update",
+        "since": 1699479419.372865,
+        "modified": 1699482357.3127863,
+        "message": ""
+    },
+    "data": {
+        "title": "test",
+        "startDate": "2023-11-15",
+        "endDate": "2023-11-15",
+        "dmpSearchable": "yes",
+        "funding": {
+            "grant_source": "Grant Number",
+            "grant_id": "1234"
+        },
+        "projectDescription": "Project description example",
+        "organizations": [
+            {
+                "ORG_ID": 644,
+                "name": "Biosystems and Biomaterials Division"
+            },
+            {
+                "ORG_ID": 647,
+                "name": "Applied Chemicals and Materials Division"
+            }
+        ],
+        "primary_NIST_contact": {
+            "firstName": "Niksa",
+            "lastName": "Blonder",
+            "orcid": "1265-1263-4521-7854"
+        },
+        "contributors": [
+            {
+                "contributor": {
+                    "firstName": "Sam",
+                    "lastName": "Smith",
+                    "orcid": "5874-8965-7412-8523"
+                },
+                "e_mail": "sam@noa.gov",
+                "instituion": "NOA",
+                "role": "Hosting Institution"
+            },
+            {
+                "contributor": {
+                    "firstName": "Ray",
+                    "lastName": "Plante",
+                    "orcid": "3214-5214-8965-7854"
+                },
+                "e_mail": "ray@nist.gov",
+                "instituion": "NIST",
+                "role": "Project Manager"
+            }
+        ],
+        "keyWords": [
+            "keyword 2",
+            "keyword 1"
+        ],
+        "dataSize": "35",
+        "sizeUnit": "GB",
+        "softwareDevelopment": {
+            "development": "yes",
+            "softwareUse": "internal",
+            "softwareDatabase": "yes",
+            "softwareWebsite": "yes"
+        },
+        "technicalResources": [
+            "resource 2",
+            "resource 1"
+        ],
+        "ethical_issues": {
+            "ethical_issues_exist": "yes",
+            "ethical_issues_description": "ethical issues example",
+            "ethical_issues_report": "report example",
+            "dmp_PII": "no"
+        },
+        "dataDescription": "generated data example",
+        "dataCategories": [
+            "Derived",
+            "Working",
+            "Publishable",
+            "Published Results and SRD"
+        ],
+        "preservationDescription": "preservation description example",
+        "dataAccess": "discoverable data plan example",
+        "pathsURLs": [
+            "path 1",
+            "url 1"
+        ]
+    },
+    "meta": {},
+    "curators": []
+}
