@@ -46,15 +46,19 @@ dmp_schema = {
                   "pattern":"^[0-9]+$"},
     "sizeUnit": {"type" : "string",
                   "enum":["MG", "GB", "TB"]},
-    # "softwareDevelopment":{
-    #   "type":"object",
-    #   "properties" : {
-    #     "development": "yes",
-    #     "softwareUse": "internal",
-    #     "softwareDatabase": "yes",
-    #     "softwareWebsite": "yes"
-    #   }
-    # }
+    "softwareDevelopment":{
+      "type":"object",
+      "properties" : {
+        "development": {"type" : "string",
+                        "enum":["yes", "no"]},
+        "softwareUse": {"type" : "string",
+                        "enum":["internal", "external", "both"]},
+        "softwareDatabase": {"type" : "string",
+                        "enum":["yes", "no"]},
+        "softwareWebsite": {"type" : "string",
+                        "enum":["yes", "no"]},
+      }
+    }
   },
   "required":["title"],
   #========================================================
