@@ -75,9 +75,9 @@ dmp_schema = {
     "dataDescription": {"type" : "string"},
     "dataCategories": {"type": "array",
                         "items":{"type" : "string",
-                                 "pattern":"^Derived$|^Working$|^Publishable$|^Published Results and SRD$"},
-                        
+                                 "pattern":"^Derived$|^Working$|^Publishable$|^Published Results and SRD$"},                        
     },
+    "preservationDescription": {"type" : "string"}
   },
   "required":["title"],
   #========================================================
