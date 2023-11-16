@@ -66,5 +66,6 @@
     "ethical_issues_description": "ethical issues example",
     "ethical_issues_report": "report example",
     "dmp_PII": "no"
-}
+},
+"dataDescription": "generated data example"
 }

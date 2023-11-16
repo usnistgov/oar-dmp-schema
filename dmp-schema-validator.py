@@ -72,6 +72,7 @@ dmp_schema = {
                     "enum":["yes", "no"]}
       }
     },
+    "dataDescription": {"type" : "string"},
   },
   "required":["title"],
   #========================================================
